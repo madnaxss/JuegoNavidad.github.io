@@ -1,0 +1,84 @@
+<html>
+<header>
+    <title>Joc de nadal</title>
+    <link rel="stylesheet" type="text/css" href="JocNadal.css">
+    <script src="JocNadal.js"></script>
+</header>
+
+<body>
+    <header>
+        <nav>
+            <button id="menu" onclick="MostrarRanking()">Ranking</button>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="inicio-sesion" style="display: block;">
+            <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" id="UsuarioNombre" name="UsuarioNombre" required>
+            <br>
+            <label for="contrasenya">Contraseña:</label>
+            <input type="password" id="UsuarioContra" name="UsuarioContra">
+            <br>
+            <button id="inicioSesion" onclick="iniciarSesion()">Iniciar Sesión</button>
+        </div>
+        <div id="calendario" style="display: none;">
+            <div id="colorfondo">
+                <h2>CALENDARIO</h2>
+                <div class="columna">
+                    <button id="id1" onclick="regalo()"></button>
+                    <button id="id2" onclick="regalo()"></button>
+                    <button id="id3" onclick="regalo()"></button>
+                    <button id="id4" onclick="regalo()"></button>
+                    <button id="id5" onclick="regalo()"></button>
+                    <button id="id6" onclick="regalo()"></button>
+                </div>
+                <div class="columna">
+                    <button id="id7" onclick="regalo()"></button>
+                    <button id="id8" onclick="regalo()"></button>
+                    <button id="id9" onclick="regalo()"></button>
+                    <button id="id10" onclick="regalo()"></button>
+                    <button id="id11" onclick="regalo()"></button>
+                    <button id="id12" onclick="regalo()"></button>
+                </div>
+                <div class="columna">
+                    <button id="id13" onclick="regalo()"></button>
+                    <button id="id14" onclick="regalo()"></button>
+                    <button id="id15" onclick="regalo()"></button>
+                    <button id="id16" onclick="regalo()"></button>
+                    <button id="id17" onclick="regalo()"></button>
+                    <button id="id18" onclick="regalo()"></button>
+                </div>
+                <div class="columna">
+                    <button id="id19" onclick="regalo()"></button>
+                    <button id="id20" onclick="regalo()"></button>
+                    <button id="id21" onclick="regalo()"></button>
+                    <button id="id22" onclick="regalo()"></button>
+                    <button id="id23" onclick="regalo()"></button>
+                    <button id="id24" onclick="regalo()"></button>
+                </div>
+            </div>
+            <button id="Resultados" onclick="regalo()">Ver Resultados</button>
+        </div>
+        <div id="Win" style="display: none;">
+            <img src="img/Santaclaus.gif">
+            <h1>Has ganado</h1>
+            <p id="Victoria"></p>
+        </div>
+        <div id="RankingRegalos" style="display: none;">
+            <h2>Ranking de regals</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Regal</th>
+                        <th>Vegades tocat</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
