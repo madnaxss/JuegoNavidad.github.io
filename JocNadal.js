@@ -1,8 +1,8 @@
 var regals = [
-    'carb', 'PlayStation 5', 'PC gamer', 'Ratolí', 'Teclat', 'Mitjons', 'carb', 'Bicicleta',
-    'Cadira', 'carb', 'Portàtil', 'Rellotge', 'Ulleres de realitat virtual', 'Càmera fotogràfica',
+    'carbo', 'PlayStation 5', 'PC gamer', 'Ratolí', 'Teclat', 'Mitjons', 'carbo', 'Bicicleta',
+    'Cadira', 'carbo', 'Portàtil', 'Rellotge', 'Ulleres de realitat virtual', 'Càmera fotogràfica',
     'Llibres de cuina', 'Kit de pintura', 'Pilota de futbol', 'Abonament per a concerts',
-    'Viatge sorpresa', 'Kit de jardineria', 'Auriculars sense fils', 'Targeta de regal', 'carb',
+    'Viatge sorpresa', 'Kit de jardineria', 'Auriculars sense fils', 'Targeta de regal', 'carbo',
     'Kit de manualitats'
 ];
 var Victoria;
